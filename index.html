@@ -1,1 +1,125 @@
-<p>Testing GitHub pages</p>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+        <title>Measurement Notes</title>
+
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body style="background-color:#1a1a1a;">
+        <!-- ***** Banner Start ***** -->
+        <div class="banner-container">
+            <img src="./images/measurementnotes-logo.png" style="width: 7%; margin:0 auto; padding-top:20px; padding-bottom:15px; min-width:150px;">
+        </div>
+        <!-- ***** Banner End ***** -->
+
+        <!-- ***** About Start ***** -->
+        <div class="about-container">
+            <div style="width: 640px; margin-left: 20px; margin-right: 20px;">
+                <h2 class="about-title">Taking measurement notes has never been easier. </h2>
+
+                <p class="about-text">
+                  With Measurement Notes you can easily take notes of measurements without having to fiddle with your regular note taking app.
+                  <br><br>
+                  Measurement Notes exceeds your good old fashioned pen and paper as this app simply makes things easier, neater, and more organized.
+                  <br><br>
+                  Supporting both the Metric and Imperial measurement system, you can note down measurements anywhere with ease. Press the "+" button, and start typing. Give the note a name, type in width, height, depth and even weight, if desired, press save, and job's done!
+                  <br><br>
+                  You can also choose what measurement unit you want by default, say you always work with centimeters, you can make centimeters default.
+                  <br><br>
+                  Short summery of features in Measurement Notes:
+                  <br>
+                  🔶 Extremely easy to use
+                  <br>
+                  🔶 Supports both Metric & Imperial
+                  <br>
+                  🔶 Choose a default measurement unit for even faster note-taking
+                </p>
+
+                <br><br>
+            </div>
+        </div>
+
+
+        <!-- ***** Image Slider ***** -->
+
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./images/screenshots/Play-Store-Screenshot-1.png" style="width:100%; border-radius:15px;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/screenshots/Play-Store-Screenshot-2.png" style="width:100%; border-radius:15px;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/screenshots/Play-Store-Screenshot-3.png" style="width:100%; border-radius:15px;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/screenshots/Play-Store-Screenshot-4.png" style="width:100%; border-radius:15px;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/screenshots/Play-Store-Screenshot-5.png" style="width:100%; border-radius:15px;">
+        </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <script>
+          let slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+          }
+        </script>
+
+        <br><br><br>
+
+        <div style="text-align:center;">
+            <a href="https://play.google.com/store/apps/details?id=com.binaryvigilante.measurementnotes" target="_blank">
+              <img src="./images/googleplay.png" style="width:15%; padding-bottom:100px; min-width:250px;">
+            </a>
+        </div>
+
+        <!-- ***** Footer ***** -->
+
+        <div class="banner-container">
+          <br>
+            <p>	© Measurement Notes 2023</p>
+            <a href="./privacy-policy.html">Privacy Policy</a>
+          <br><br>
+        </div>
+        <!-- ***** About End ***** -->
+    </body>
+</html>
