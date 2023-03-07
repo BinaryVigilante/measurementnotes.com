@@ -18,6 +18,13 @@ a:hover {
   color:#1a1a1a;
 }
 
+.footer-container {
+  color: white;
+  text-align: center;
+  background-color:#ff9800;
+  letter-spacing: 1.4px;
+  margin-top: 50px;
+}
 
 
 /* Slideshow container */
