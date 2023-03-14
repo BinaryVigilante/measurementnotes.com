@@ -5,6 +5,7 @@ body {
     background-color: #1a1a1a;
     font-size: 16px;
     margin: 0;
+    margin-bottom: 100px;
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,17 +16,47 @@ a {
 }
 
 a:hover {
-  color:#1a1a1a;
+  color:#ff9800;
 }
 
-.footer-container {
+.bloglink {
+  color: #ff9800;
+}
+
+.bloglink:hover {
   color: white;
-  text-align: center;
-  background-color:#ff9800;
-  letter-spacing: 1.4px;
-  margin-top: 50px;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 42px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  position: relative;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -85,9 +116,6 @@ a:hover {
   .text {font-size: 11px}
 }
 
-
-
-
 .banner-container {
     color: white;
     text-align: center;
@@ -100,26 +128,53 @@ a:hover {
     background: #1a1a1a;
     letter-spacing: 1.4px;
     position: relative;
-    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-.about-title {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 42px;
-    color: white;
-    margin-bottom: 30px;
-    position: relative;
-    text-align: left;
+/*
+-----
+Menu
+-----
+*/
+
+.menu-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
-.about-text {
-    text-align: left;
-    font-weight: 400;
-    font-size: 16px;
-    color: #cccccc;
-    line-height: 28px;
-    margin-bottom: 50px;
+.menu-child {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: white 1px solid;
+  border-radius: 20px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.menu-link {
+  color: #c47500;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #1a1a1a;
+}
+
+.menu-link-active {
+  color: #ff9800;
+  text-decoration: none;
+}
+
+.menu-link-active:hover {
+  color: #1a1a1a;
 }
