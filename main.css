@@ -178,3 +178,20 @@ Menu
 .menu-link-active:hover {
   color: #1a1a1a;
 }
+
+.youtube-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.youtube-video {
+  border: 2px solid #9f9f9f;
+  border-radius: 15px;
+}
+
+@media (min-width:768px) {
+  .youtube-video {
+    height: 360px;
+    width: 640px;
+  }  
+}
